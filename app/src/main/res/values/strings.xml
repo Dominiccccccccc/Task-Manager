@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+    <!-- Strings for OnBoarding Screen -->
+    <!-- Titles-->
+    <string name="task_creation_title">Task Creation</string>
+    <string name="task_sharing_title">Task Sharing</string>
+    <string name="time_management_title">Time Management</string>
+    <string name="task_history_title">Task History</string>
+
+    <!-- Descriptions-->
+    <string name="task_creation_desc">Gone are the days of scribbling down notes on scraps of paper or struggling to remember important to-dos by capture and organize tasks in a matter of seconds.  </string>
+    <string name="task_sharing_desc">Say goodbye to scattered emails, miscommunication, and missed deadlines – our task sharing feature is here to revolutionize the way you collaborate.</string>
+    <string name="time_management_desc">You will transform your work habits and achieve tasks with unparalleled efficiency.Try it out today and discover the transformative impact of focused work.</string>
+    <string name="task_history_desc">You can effortlessly track your progress, analyze your accomplishments, and make informed decisions to enhance your productivity and efficiency.</string>
+
+    <!-- Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="back_btn">Back</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started_btn">Let\'s Get Started!</string>
+    <string name="start">Start</string>
+    <string name="_00_n00">_00_n00</string>
+
+    <!-- Strings for Focus Activity -->
+    <string name="focus_taskbar">Start a Focus Session</string>
+    <string name="startpause_btn">Start</string>
+    <string name="reset_btn">Reset</string>
+    <string name="focusTask">Task Name</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="click_to_login">Click to login</string>
+
+</resources>

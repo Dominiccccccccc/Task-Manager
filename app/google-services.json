@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "856451245494",
+    "firebase_url": "https://login-register-firebase-3cec5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "login-register-firebase-3cec5",
+    "storage_bucket": "login-register-firebase-3cec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856451245494:android:95d2d477cc13fc8ca54d17",
+        "android_client_info": {
+          "package_name": "com.example.taskmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856451245494-dpr5m2btrgvknmra7e2eqba504k1thvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgGakmZ-2MBlWEU6OUTZy1FjBj8phwqC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856451245494-dpr5m2btrgvknmra7e2eqba504k1thvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856451245494:android:d9b8a019c826ae52a54d17",
+        "android_client_info": {
+          "package_name": "my.edu.utar.accountcreation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856451245494-dpr5m2btrgvknmra7e2eqba504k1thvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgGakmZ-2MBlWEU6OUTZy1FjBj8phwqC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856451245494-dpr5m2btrgvknmra7e2eqba504k1thvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

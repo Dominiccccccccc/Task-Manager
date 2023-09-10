@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    app:flow_horizontalAlign="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/titleImage"
+            android:layout_width="330dp"
+            android:layout_height="318dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Image for slider."
+            android:src="@drawable/task_creation"
+            app:layout_constraintBottom_toTopOf="@+id/textTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.631"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/task_creation_title"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/textDescription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleImage" />
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="333dp"
+            android:layout_height="109dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="111dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Gone are the days of scribbling down notes on scraps of paper or struggling to remember important to-dos by capture and organize tasks in a matter of seconds."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

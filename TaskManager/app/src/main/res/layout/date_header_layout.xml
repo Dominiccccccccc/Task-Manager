@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="9dp">
+
+    <TextView
+        android:id="@+id/textViewDateHeader"
+        android:text="2023-08-08"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="5dp"
+        android:background="#115597"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+</LinearLayout>

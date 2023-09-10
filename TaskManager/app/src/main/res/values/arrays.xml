@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="category">
+        <item>No Category</item>
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Study</item>
+        <item>Entertainment</item>
+        <item>Hobbies</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
